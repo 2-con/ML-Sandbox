@@ -1,15 +1,9 @@
-"""DOCSTRING
-made in 8/2/2025 (d/m/y)
-
-Todo:
- - 
- 
-Notes:
-
-if ur reading this from MAC, this chatbot is prolly still broken cuz restrictions and what not.
-also for chatting mode, just keep it kinda blank and keep iteratively add stuff and patch bugs, eventually
-it will be better over time trust.
-
+"""
+Test Natural Language Processing (NLP)
+=====
+  This module contains functions and classes for processing natural language inputs, particularly for mathematical operations, definitions, and Wikipedia queries. 
+  It includes packet organization, mathematical evaluation, Wikipedia search functionalities and other unused and redundant functions. 
+  It is unconventional to include a subjective summary of the module, however, this whole module can be described as a disaster.
 """
 
 # imports

@@ -1,14 +1,8 @@
-"""DOCSTRING
-made in 30/3/2025 (d/m/y)
-
-To do list:
-
- - 
- 
-Notes:
-
-
-
+"""
+Convolution
+=====
+  Image processing using cross-correlation and the pooling layers to extract features.
+  There is no backpropagation or training in here despite the name and the deceiving class name of 'sequential'.
 """
 
 # imports

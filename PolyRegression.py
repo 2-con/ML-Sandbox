@@ -1,14 +1,8 @@
-"""DOCSTRING
-made in X/X/X (d/m/y)
-
-To do list:
-
- - 
- 
-Notes:
-
-
-
+"""
+Polynomial Regression
+=====
+  This script implements a polynomial regression model using coordinate descent via numerical differentiation.
+  The optimizer used is a custom twist on the traditional gradient descent method.
 """
 
 # imports
@@ -165,7 +159,7 @@ if __name__ == "__main__":
 
   # Main ==========================
 
-  a, b, c, d = polynomial_regression(DATAX,DATAY,1000,0.0001,1000,True)
+  a, b, c, d = polynomial_regression(DATAX,DATAY,2000,0.0001,1000,True)
   print(f"Validating | {round(A,3):6} | {round(B,3):6} | {round(C,3):6} | {round(D,3):6} |")
 
   # plotting scatter and the line

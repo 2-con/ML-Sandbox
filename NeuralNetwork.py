@@ -1,12 +1,9 @@
-"""DOCSTRING
-Created 20/3/2025
-
-Todo:
- -
-
-Notes:
-
-
+"""
+NeuralNetwork
+=====
+  The earliest version of (what would become) PyNet. Although a similar version of this code is archived into PyNet as "FlashNet", that version has been heavily modified and is not the same as this one.
+  This code is a simple neural network implementation that uses a ReLU activation function and the traditional optimization method of backpropagation.
+  It is designed to be a basic example of how neural networks can be implemented in Python.
 """
 
 import random

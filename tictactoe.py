@@ -1,20 +1,9 @@
-"""DOCSTRING
-made in 20/1/2025 (d/m/y)
-
-To-do:
-
- - 
-
-Notes:
-
-not reccomended to train AI in google collab bc its slow.
-
-ik its tedious (and annoying) to upgrade both the training model and the game model but sometimes they are imcompatible with
-each other
-
-definitions
-  "attacking" - blocking an opponent's movement
-
+"""
+Tictactoe
+=====
+  A simple tictactoe game with an AI that learns from its mistakes. A custom implimentation (and my first attempt) at reinforcement learning.
+  The AI learns from its mistakes and tries to avoid them in the future. It is capable of playing on any board size, but it is optimized for the classic 3x3 board.
+  There are multiple versions of the AI, each with its own unique strategy and learning method.
 """
 
 # imports =====================================================================================

@@ -1,14 +1,8 @@
-"""DOCSTRING
-made in 15/3/2025 (d/m/y)
-
-To do list:
-
- -
-
-Notes:
-
-
-
+"""
+Logistic Regression
+=====
+  This script implements a logistic regression model using coordinate descent via numerical differentiation.
+  The optimizer used is a custom twist on the traditional gradient descent method.
 """
 
 # imports

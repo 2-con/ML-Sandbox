@@ -1,14 +1,8 @@
-"""DOCSTRING
-made in 15/3/2025 (d/m/y)
-
-To do list:
-
- - 
- 
-Notes:
-
-linear regression lmao
-
+"""
+Linear Regression
+=====
+  This script implements a linear regression model using coordinate descent via numerical differentiation.
+  The optimizer used is a custom twist on the traditional gradient descent method.
 """
 
 # imports
@@ -108,14 +102,14 @@ def linear_regression(datax, datay, epochs, learning_rate, bias_multiplier, debu
 if __name__ == "__main__":
   M = random.randint(0,10)
   B = random.randint(-50,50)
-  RANDOMNESS = 2.5
+  RANDOMNESS = 0.5
 
   np.random.seed(0) 
   DATAX = np.sort(np.random.rand(50) * 10) 
   DATAY = M*DATAX + B + np.random.randn(50)*RANDOMNESS
   # Main ==========================
 
-  m,b = linear_regression(DATAX, DATAY, 1000, 0.0001, 10000, True)
+  m,b = linear_regression(DATAX, DATAY, 1000, 0.00001, 100000, True)
   print(f"Validating | {round(M,3):6} | {round(B,3):6} |")
 
   # plotting scatter and the line
