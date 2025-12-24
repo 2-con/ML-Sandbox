@@ -5,13 +5,9 @@ Linear Regression
   The optimizer used is a custom twist on the traditional gradient descent method.
 """
 
-# imports
-
 import matplotlib.pyplot
 import numpy as np
 import random
-
-# functions
 
 def abs_error(datax, datay, m, b):
   error = 0

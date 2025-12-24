@@ -5,11 +5,7 @@ Convolution
   There is no backpropagation or training in here despite the name and the deceiving class name of 'sequential'.
 """
 
-# imports
-
 import math
-
-# classes
 
 class sequential:
   def __init__(self, *args):

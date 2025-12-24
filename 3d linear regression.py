@@ -141,5 +141,4 @@ ax.set_ylabel("X2")
 ax.set_zlabel("Y")
 ax.set_title("3D Linear Regression", loc='center', fontsize=20, y=1.09)
 
-# show
 plt.show()

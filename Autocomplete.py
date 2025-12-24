@@ -5,24 +5,23 @@ Autocomplete
   just an earlier version of the code, but with a few changes.
 """
 
-# variables
 print("start typing")
 word = ""
 while True:
   print(word,end='')
   word = word + str(input("")) + " " # Input
   dataset = "lorem ipsum dolor sit amet" + word
-  data = [] # dataset turned into a list of words
+  data = []       # dataset turned into a list of words
 
-  oldlib = {} # dictionary of blocks along with occurances for analysis
-  block = [] # chunks of words to be analysed
-  library = [] # oldlib but stores objects instead
+  oldlib = {}     # dictionary of blocks along with occurances for analysis
+  block = []      # chunks of words to be analysed
+  library = []    # oldlib but stores objects instead
 
-  options = [] # options but stores objects
-  confidence = 0 # how 'confident' the guess is
+  options = []    # options but stores objects
+  confidence = 0  # how 'confident' the guess is
 
-  padding = "" # padding the confidence to look nicer
-  output = "" # AI's guess as an f-string
+  padding = ""    # padding the confidence to look nicer
+  output = ""     # AI's guess as an f-string
 
   # constants
   BLANK = '<VOID>'
@@ -45,7 +44,6 @@ while True:
 
   # grabs all the words and turns them into a list of words
   for i in dataset.lower().split():
-
     # seperate sentences by punctuation since you can say 2 non-related ideas
     if ('!' in i) or ('?' in i) or ('.' in i):
       data.append(i.replace('!','').replace('?','').replace('.',''))

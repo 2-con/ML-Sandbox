@@ -5,19 +5,13 @@ Logistic Regression
   The optimizer used is a custom twist on the traditional gradient descent method.
 """
 
-# imports
-
 import matplotlib.pyplot as plt
 import numpy as np
 
-# functions
-
 def abs_error(datax, datay, a, b):
   error = 0
-
   for item in range(len(datax)):
     error += abs(datay[item] - (1 / (1 + 2.71828**( -a*(datax[item]-b) ))))
-
   return error/len(datax)
 
 def logistic_regression(datax, datay, epochs, learning_rate, bias_multiplier, debug=False):
