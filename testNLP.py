@@ -1329,7 +1329,6 @@ def chatting_interpreter(userinput : str, DEBUG : bool) -> None:
 
   # misc
   PARTNER_PLATONIC        = ("partner", "partners", "aquaintance", "aquaintances", "friend", "friends")
-  PARTNER_ROMANTIC        = ("husband", "wife", "spouse", "boyfriend", "girlfriend", "hubby", "wifey", "pookie") # cringe alert!! !! !!
   
   # blacklisted topics / words
   BLACKLIST               = ("war", "wars", "politics", "political", "election", "elections", "ballot", "vote", "president", "minister", "ministry", "federal")
